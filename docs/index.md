@@ -13,6 +13,10 @@ Utilizamos uma tabela de **clientes** de uma loja fictícia como fonte de dados,
 - **DELETE:** remoção de um cliente da tabela
 - **TIME TRAVEL / SNAPSHOTS:** consulta de versões anteriores dos dados
 
+## Modelo ER
+
+![Modelo ER - Tabela Clientes](modelo_er.png)
+
 ## Ambiente
 
 O ambiente foi containerizado com **Docker**, utilizando a imagem oficial `jupyter/pyspark-notebook`, que já inclui Apache Spark e JupyterLab configurados. Isso garante reprodutibilidade — qualquer pessoa com Docker instalado consegue rodar o projeto.

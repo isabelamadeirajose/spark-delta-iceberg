@@ -1,0 +1,21 @@
+[project]
+name = "spark-delta-iceberg"
+version = "0.1.0"
+description = "Projeto de pesquisa sobre Apache Spark com Delta Lake e Apache Iceberg"
+readme = "README.md"
+requires-python = ">=3.13"
+
+[project.dependencies]
+delta-spark = "3.2.0"
+pyiceberg = "0.11.1"
+jupyter = "*"
+jupyterlab = "*"
+mkdocs = "*"
+mkdocs-material = "*"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
