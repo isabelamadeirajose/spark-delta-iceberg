@@ -1,0 +1,18 @@
+site_name: Apache Spark com Delta Lake e Apache Iceberg
+site_description: Documentação do projeto de pesquisa sobre Apache Spark com Delta Lake e Apache Iceberg
+site_author: isabelamadeirajose
+
+nav:
+  - Contextualização: index.md
+  - Apache Spark: spark.md
+  - Delta Lake: delta.md
+  - Apache Iceberg: iceberg.md
+
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: purple
+  features:
+    - navigation.tabs
+    - navigation.top
